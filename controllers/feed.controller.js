@@ -29,13 +29,17 @@ const findById = (req, res, next) => {
 }
 
 const save = (req, res, next) => {
-  const usuarioId = req.usuario.id
-  req.body.userId = usuarioId
-  const feed = new Feed(req.body)
-  feed.save().then((feedRegistrado) => {
-    Usuario.find({ id: usuarioId }).then((usuario) => {
+  Usuario.find({ id: req.usuario.id }).then((usuario) => {
+    if (!usuario) {
+      return res.status(404).json({
+        ok: false,
+        message: 'No se puede crear el feed por que el usuario no existe.',
+      })
+    }
+    const feed = new Feed({ ...req.body, userId: usuario.id })
+    feed.save().then((feedRegistrado) => {
       usuario.feeds.push(feedRegistrado.id)
-      Usuario.actualizarUsuario(usuarioId, usuario).then((message) => {
+      Usuario.actualizarUsuario(usuario.id, usuario).then((message) => {
         res.json({
           ok: true,
           feed: feedRegistrado,

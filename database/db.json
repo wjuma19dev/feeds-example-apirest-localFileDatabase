@@ -1,37 +1,21 @@
 {
   "feeds": [
     {
-      "title": "s",
-      "content": "s",
-      "id": "60844492-c606-42f0-b987-8e8c2bfe64ff",
-      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
-      "createdAt": "2025-03-20T20:51:27.946Z"
-    },
-    {
-      "title": "a",
-      "content": "a",
-      "id": "d7a68119-9d65-467a-859b-6170548ea9fc",
-      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
-      "createdAt": "2025-03-20T20:52:41.394Z"
-    },
-    {
-      "title": "Bitcoin long 10X",
-      "content": "Cuando btc llegue a este soporte abrire esta operacion, se las comparto",
-      "id": "4ae4befb-0843-4324-9acd-f84358364489",
-      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
-      "createdAt": "2025-03-20T21:05:15.996Z"
+      "title": "Hello world",
+      "content": "Today it s a good day for works!",
+      "id": "632e0231-ac4c-440e-8f87-75e163212e50",
+      "userId": "1a75d398-49bd-4acb-a21b-4e7629c6d0b5",
+      "createdAt": "2025-03-16T01:24:46.448Z"
     }
   ],
   "usuarios": [
     {
-      "id": "96abab9f-4c52-498d-a0f0-062614661cec",
+      "id": "1a75d398-49bd-4acb-a21b-4e7629c6d0b5",
       "username": "joedoe",
       "email": "joedoe@user.com",
-      "password": "$2b$10$CoAMnTAzk0cYVNF6EiyF3eqMxp5rT7tSmqQ6.IfySgMIiiTQ//JAm",
+      "password": "$2b$10$HiTwIKn.KoBNR2CwmcMxmuQBWySC8v1u0KRAmk3XnIYF0nw9hd89S",
       "feeds": [
-        "60844492-c606-42f0-b987-8e8c2bfe64ff",
-        "d7a68119-9d65-467a-859b-6170548ea9fc",
-        "4ae4befb-0843-4324-9acd-f84358364489"
+        "632e0231-ac4c-440e-8f87-75e163212e50"
       ]
     }
   ],
