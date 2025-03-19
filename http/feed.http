@@ -1,0 +1,26 @@
+### Obtener todos los feeds
+GET http://localhost:3000/api/v1/feeds
+
+### Obtener feed por id
+GET http://localhost:3000/api/v1/feeds/846b6061-8cc6-4f62-a1e9-242a04f1dc91
+
+### Guardar un feed
+POST http://localhost:3000/api/v1/feeds
+Content-Type: application/json
+
+{
+  "title": "Hello world",
+  "content": "Today it s a good day for works!"
+}
+
+### Actualizar feed
+PUT http://localhost:3000/api/v1/feeds/9b00cee1-8cff-4fd7-b9c8-b7d4629fd680
+Content-Type: application/json
+
+{
+  "title": "Quiero que esto sea otra cosa, para nada",
+  "content": "Definitivamente no lo es, pero se que podra serlo"
+}
+
+### Eliminar feed
+DELETE http://localhost:3000/api/v1/feeds/9b00cee1-8cff-4fd7-b9c8-b7d4629fd680
