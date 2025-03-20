@@ -9,7 +9,7 @@ import {
 import { isAuth } from '../middlewares/is-auth.js'
 const userRouter = Router()
 
-userRouter.get('/', [isAuth], buscarUsuarios)
+userRouter.get('/', buscarUsuarios)
 userRouter.post('/', crearUsuario)
 
 userRouter

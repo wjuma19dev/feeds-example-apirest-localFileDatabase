@@ -1,5 +1,6 @@
 import { actualizarFeedsEnStorage } from '../helpers/index.js'
 import Feed from '../models/feed.model.js'
+import Usuario from '../models/usuario.model.js'
 
 const findAll = (req, res, next) => {
   Feed.find().then((feeds) => {
@@ -28,11 +29,18 @@ const findById = (req, res, next) => {
 }
 
 const save = (req, res, next) => {
+  const usuarioId = req.usuario.id
+  req.body.userId = usuarioId
   const feed = new Feed(req.body)
-  feed.save().then((usuarioRegistrado) => {
-    res.json({
-      ok: true,
-      usuario: usuarioRegistrado,
+  feed.save().then((feedRegistrado) => {
+    Usuario.find({ id: usuarioId }).then((usuario) => {
+      usuario.feeds.push(feedRegistrado.id)
+      Usuario.actualizarUsuario(usuarioId, usuario).then((message) => {
+        res.json({
+          ok: true,
+          feed: feedRegistrado,
+        })
+      })
     })
   })
 }

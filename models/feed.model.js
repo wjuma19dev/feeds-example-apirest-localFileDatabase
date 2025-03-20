@@ -1,14 +1,14 @@
-import { existsSync, readFile, readFileSync, writeFileSync } from 'fs'
-import { join } from 'path'
+import { readFileSync, writeFileSync } from 'fs'
 import { v4 as uuidv4 } from 'uuid'
 import { __dirname, dbFile, feeds, db } from '../helpers/index.js'
 
 class Feed {
-  constructor({ title, content }) {
+  constructor({ title, content, userId }) {
     this.title = title
     this.content = content
     this.id = uuidv4()
-    this.userId = 1
+    this.userId = userId
+    this.createdAt = new Date()
   }
 
   async save() {

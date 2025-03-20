@@ -1,81 +1,38 @@
 {
   "feeds": [
     {
-      "title": "Hello world",
-      "content": "Today it s a good day for works!",
-      "id": "e37535a1-34ac-47f6-b0aa-00dbda298f98",
-      "userId": 1
+      "title": "s",
+      "content": "s",
+      "id": "60844492-c606-42f0-b987-8e8c2bfe64ff",
+      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
+      "createdAt": "2025-03-20T20:51:27.946Z"
     },
     {
-      "title": "Hello world",
-      "content": "Today it s a good day for works!",
-      "id": "b15df1d6-0584-411a-9cc0-d1c27810cf75",
-      "userId": 1
+      "title": "a",
+      "content": "a",
+      "id": "d7a68119-9d65-467a-859b-6170548ea9fc",
+      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
+      "createdAt": "2025-03-20T20:52:41.394Z"
+    },
+    {
+      "title": "Bitcoin long 10X",
+      "content": "Cuando btc llegue a este soporte abrire esta operacion, se las comparto",
+      "id": "4ae4befb-0843-4324-9acd-f84358364489",
+      "userId": "96abab9f-4c52-498d-a0f0-062614661cec",
+      "createdAt": "2025-03-20T21:05:15.996Z"
     }
   ],
   "usuarios": [
     {
-      "username": "joe doe",
+      "id": "96abab9f-4c52-498d-a0f0-062614661cec",
+      "username": "joedoe",
       "email": "joedoe@user.com",
-      "password": "$2b$10$zjOQGAyi2G43UeO1iww5MuKLZ9SezN7ErKsBDoeNYU2G.c7NPHsUS",
-      "id": "e86c7629-bc11-4a5b-83d4-bf53609522d3",
-      "feeds": []
-    },
-    {
-      "username": "jose la luz",
-      "email": "joselaluz@user.com",
-      "password": "$2b$10$opaomPLQ8kxQ/k2EgbmG8uLbmerjxG04ANU7IIAfQu//MxTF1RZqi",
-      "id": "df835b7e-73d5-4d5f-9ede-eb43d877a31b",
-      "feeds": []
-    },
-    {
-      "username": "el papa francisco",
-      "email": "elpapafrancisco@user.com",
-      "password": "$2b$10$u9apA67peoPwEW0H2bwgAuFH9XkcseMsgypId3MXlBG4Ax/H4O3yK",
-      "id": "67d32220-23c6-4c7d-9d3a-872f5417f029",
-      "feeds": []
-    },
-    {
-      "username": "francisca lachapel",
-      "email": "franciscalachapel@user.com",
-      "password": "$2b$10$3q1wg/YAwn9DAJX1IGErAOW3kgGQY7U7WuNFvTuQXebeMkaoAFhKO",
-      "id": "402a1547-daa3-4f78-af04-6796561493d7",
-      "feeds": []
-    },
-    {
-      "username": "mami",
-      "email": "mami@user.com",
-      "password": "$2b$10$o/B3bReKvWVtL6FaSf0wfuXrm/TW5Qo6TYVRaucRfOcD/x6WI4uty",
-      "id": "c136efcb-f976-4e9e-bf7e-d8dac3c5eb31",
-      "feeds": []
-    },
-    {
-      "username": "papi",
-      "email": "papi@user.com",
-      "password": "$2b$10$Lzc4IJRv4t98jXWUkczUjOWefJvu/ufhb91swh5y9j/U9GiDZevuu",
-      "id": "857c536c-5090-49b8-8115-726b3fc99924",
-      "feeds": []
-    },
-    {
-      "username": "papi",
-      "email": "papi@user.com",
-      "password": "$2b$10$b58oXRjl92VlmHjKyc9O4OkFV5yF1Tcrf64b39wKVSGZ0cp2vAtEa",
-      "id": "0ebf2717-c817-4b31-845e-228c3ffa08a7",
-      "feeds": []
-    },
-    {
-      "username": "hermano",
-      "email": "hermano@user.com",
-      "password": "$2b$10$dkJLMI6rZ4LBwcaCd5JMouGn/mJqiyFieOuTlWu1AJ5OEwviGUtCy",
-      "id": "c89a5bd8-4718-4cf0-a073-aa236b34c07e",
-      "feeds": []
-    },
-    {
-      "username": "primo",
-      "email": "primo@user.com",
-      "password": "$2b$10$OYJN.U/3xRsVwIawxxIoFukmfDUF1ALfxEnE9KGgjT3dIhvCr9LTq",
-      "id": "6441c984-6e61-4df1-ac1b-82fd8fac94b7",
-      "feeds": []
+      "password": "$2b$10$CoAMnTAzk0cYVNF6EiyF3eqMxp5rT7tSmqQ6.IfySgMIiiTQ//JAm",
+      "feeds": [
+        "60844492-c606-42f0-b987-8e8c2bfe64ff",
+        "d7a68119-9d65-467a-859b-6170548ea9fc",
+        "4ae4befb-0843-4324-9acd-f84358364489"
+      ]
     }
   ],
   "config": {}

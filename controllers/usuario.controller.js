@@ -28,7 +28,6 @@ export const crearUsuario = (req, res, next) => {
   })
 }
 export const buscarUsuarios = (req, res, next) => {
-  console.log(req.usuario)
   Usuario.find().then((usuarios) => {
     res.json({ ok: true, usuarios })
   })

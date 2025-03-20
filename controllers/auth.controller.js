@@ -6,7 +6,6 @@ export const login = (req, res, next) => {
   const { email, password } = req.body
 
   Usuario.find({ email }).then((usuario) => {
-    console.log(usuario)
     if (!usuario) {
       return res.status(404).json({
         ok: false,

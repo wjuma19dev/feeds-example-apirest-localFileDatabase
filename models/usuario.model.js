@@ -76,6 +76,22 @@ class Usuario {
     }
     return resultado
   }
+
+  static actualizarUsuario(id, data) {
+    return new Promise((resolve, reject) => {
+      readFile(dbFile, 'utf-8', (err, fileContent) => {
+        if (err) return reject(err.message)
+        const storage = JSON.parse(fileContent)
+        const index = storage.usuarios.findIndex((u) => u.id === id)
+        if (index === -1) return reject('Usuario no encontrado')
+        storage.usuarios[index] = { id, ...data }
+        writeFile(dbFile, JSON.stringify(storage, null, 2), (err) => {
+          if (err) return reject(err.message)
+          resolve('Usuario actualizado con exito')
+        })
+      })
+    })
+  }
 }
 
 export default Usuario
