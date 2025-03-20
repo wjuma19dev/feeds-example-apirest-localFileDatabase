@@ -5,10 +5,12 @@ import {
   crearUsuario,
   actualizarUsuario,
   eliminarUsuario,
-} from '../controllers/user.controller.js'
+} from '../controllers/usuario.controller.js'
+import { isAuth } from '../middlewares/is-auth.js'
 const userRouter = Router()
 
-userRouter.route('/').get(buscarUsuarios).post(crearUsuario)
+userRouter.get('/', [isAuth], buscarUsuarios)
+userRouter.post('/', crearUsuario)
 
 userRouter
   .route('/:usuarioId')

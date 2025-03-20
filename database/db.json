@@ -17,31 +17,64 @@
     {
       "username": "joe doe",
       "email": "joedoe@user.com",
-      "id": "382f6cae-83c6-43e6-b3cf-e764eb15afe7",
+      "password": "$2b$10$zjOQGAyi2G43UeO1iww5MuKLZ9SezN7ErKsBDoeNYU2G.c7NPHsUS",
+      "id": "e86c7629-bc11-4a5b-83d4-bf53609522d3",
       "feeds": []
     },
     {
-      "username": "joe doe",
-      "email": "joedoe@user.com",
-      "id": "c7050389-1d84-46b0-8b73-dd1ad8b6c2d5",
+      "username": "jose la luz",
+      "email": "joselaluz@user.com",
+      "password": "$2b$10$opaomPLQ8kxQ/k2EgbmG8uLbmerjxG04ANU7IIAfQu//MxTF1RZqi",
+      "id": "df835b7e-73d5-4d5f-9ede-eb43d877a31b",
       "feeds": []
     },
     {
-      "username": "joe doe",
-      "email": "joedoe@user.com",
-      "id": "b0d9ed2c-c7b1-433e-af63-f1360d6d6d0b",
+      "username": "el papa francisco",
+      "email": "elpapafrancisco@user.com",
+      "password": "$2b$10$u9apA67peoPwEW0H2bwgAuFH9XkcseMsgypId3MXlBG4Ax/H4O3yK",
+      "id": "67d32220-23c6-4c7d-9d3a-872f5417f029",
       "feeds": []
     },
     {
-      "username": "joe doe",
-      "email": "joedoe@user.com",
-      "id": "3623ed40-474e-4a14-b3a2-4381b5aa523e",
+      "username": "francisca lachapel",
+      "email": "franciscalachapel@user.com",
+      "password": "$2b$10$3q1wg/YAwn9DAJX1IGErAOW3kgGQY7U7WuNFvTuQXebeMkaoAFhKO",
+      "id": "402a1547-daa3-4f78-af04-6796561493d7",
       "feeds": []
     },
     {
-      "username": "joe doe",
-      "email": "joedoe@user.com",
-      "id": "429d5c30-3965-46d3-a520-90e06a9acdf5",
+      "username": "mami",
+      "email": "mami@user.com",
+      "password": "$2b$10$o/B3bReKvWVtL6FaSf0wfuXrm/TW5Qo6TYVRaucRfOcD/x6WI4uty",
+      "id": "c136efcb-f976-4e9e-bf7e-d8dac3c5eb31",
+      "feeds": []
+    },
+    {
+      "username": "papi",
+      "email": "papi@user.com",
+      "password": "$2b$10$Lzc4IJRv4t98jXWUkczUjOWefJvu/ufhb91swh5y9j/U9GiDZevuu",
+      "id": "857c536c-5090-49b8-8115-726b3fc99924",
+      "feeds": []
+    },
+    {
+      "username": "papi",
+      "email": "papi@user.com",
+      "password": "$2b$10$b58oXRjl92VlmHjKyc9O4OkFV5yF1Tcrf64b39wKVSGZ0cp2vAtEa",
+      "id": "0ebf2717-c817-4b31-845e-228c3ffa08a7",
+      "feeds": []
+    },
+    {
+      "username": "hermano",
+      "email": "hermano@user.com",
+      "password": "$2b$10$dkJLMI6rZ4LBwcaCd5JMouGn/mJqiyFieOuTlWu1AJ5OEwviGUtCy",
+      "id": "c89a5bd8-4718-4cf0-a073-aa236b34c07e",
+      "feeds": []
+    },
+    {
+      "username": "primo",
+      "email": "primo@user.com",
+      "password": "$2b$10$OYJN.U/3xRsVwIawxxIoFukmfDUF1ALfxEnE9KGgjT3dIhvCr9LTq",
+      "id": "6441c984-6e61-4df1-ac1b-82fd8fac94b7",
       "feeds": []
     }
   ],

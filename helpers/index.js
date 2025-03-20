@@ -7,6 +7,7 @@ import {
 } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import jwt from 'jsonwebtoken'
 
 export const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -41,6 +42,15 @@ export const actualizarFeedsEnStorage = (feeds) => {
         resolve('Feed actualizado con exito')
       }
     )
+  })
+}
+
+export const generarToken = (payload) => {
+  return new Promise((resolve, reject) => {
+    const token = jwt.sign(payload, process.env.JWT_SECRET, {
+      expiresIn: '1h',
+    })
+    resolve(token)
   })
 }
 

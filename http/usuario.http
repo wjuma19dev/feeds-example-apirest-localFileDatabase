@@ -1,14 +1,17 @@
 ### Obtener todos los usuarios
 GET http://localhost:3000/api/v1/usuarios
+Content-Type: application/json
+#x_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiJkZjgzNWI3ZS03M2Q1LTRkNWYtOWVkZS1lYjQzZDg3N2EzMWIiLCJlbWFpbCI6Impvc2VsYWx1ekB1c2VyLmNvbSIsInVzZXJuYW1lIjoiam9zZSBsYSBsdXoiLCJpYXQiOjE3NDI0NzgwODAsImV4cCI6MTc0MjQ4MTY4MH0.QOCuoMhOKaylTiuk0x4KsbCKhMYvPdk6tt9QK8BDEEg 
 
 ### Obtener usuario por id
-GET http://localhost:3000/api/v1/usuarios/5a8da223-3d44-4a97-8020-6ff088c86e8f
+GET http://localhost:3000/api/v1/usuarios/382f6cae-83c6-43e6-b3cf-e764eb15afe7
 
 ### Crear un usuario
 POST http://localhost:3000/api/v1/usuarios
 Content-Type: application/json
 
 {
-  "username": "joe doe",
-  "email": "joedoe@user.com"
+  "username": "primo",
+  "email": "primo@user.com",
+  "password": "123456"
 }
